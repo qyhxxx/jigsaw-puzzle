@@ -1,0 +1,45 @@
+body {
+    background-color: antiquewhite;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+    color: burlywood;
+    height: 20px;
+}
+
+.sub-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.sub-title {
+    color: burlywood;
+    cursor: pointer;
+    margin: 20px;
+    height: 30px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img {
+    height: 150px;
+    width: 150px;
+    cursor: pointer;
+}
+
+
+.successMsg {
+    color: red;
+}

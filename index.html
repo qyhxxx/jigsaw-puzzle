@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>九宫格拼图</title>
+    <link rel="stylesheet" href="index.css" type="text/css">
+</head>
+<body>
+    <div class="header">
+        <h1 class="title">九宫格拼图</h1>
+        <div class="sub-header">
+            <h2 class="sub-title" onclick="randomize()">开始游戏</h2>
+            <h2 class="sub-title" onclick="init()">显示正确图片</h2>
+        </div>
+    </div>
+    <div class="content">
+        <div class="row">
+            <img id="img1" class="img" src="imgs/1.jpg">
+            <img id="img2" class="img" src="imgs/2.jpg">
+            <img id="img3" class="img" src="imgs/3.jpg">
+        </div>
+        <div class="row">
+            <img id="img4" class="img" src="imgs/4.jpg">
+            <img id="img5" class="img" src="imgs/5.jpg">
+            <img id="img6" class="img" src="imgs/6.jpg">
+        </div>
+        <div class="row">
+            <img id="img7" class="img" src="imgs/7.jpg">
+            <img id="img8" class="img" src="imgs/8.jpg">
+            <img id="img9" class="img" src="imgs/9.jpg">
+        </div>
+        <h2 id="successMsg" style="color:red"></h2>
+    </div>
+    <script type="text/javascript" src="index.js"></script> 
+</body>
+</html>
